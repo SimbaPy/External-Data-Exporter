@@ -10,7 +10,8 @@ The program is designed for the windows OS, since this is the standard OS used i
 
 1. Launch the python executable (Barnton_Exporter_X.exe). This can be found in the dist folder inside of the Barnton Exporter folder.
 2. Follow the instructions presented to you by the program.
-3. When you reach the stage where it requests for the number of seconds you need to navigate your cursor to a cell, open a blank excel worksheet (Since you do not have the software I use at my job, the worksheet will work for demonstrative purposes since they are both spreadsheets).
-4. Enter in the number of seconds you wish to take navigating to the relevant cell in your blank worksheet and watch the magic happen.
+3. When it requests for which site you would like to work on, pick Harare CSD.
+4. When you reach the stage where it requests for the number of seconds you need to navigate your cursor to a cell, open a blank excel worksheet (Since you do not have the software I use at my job, the worksheet will work for demonstrative purposes since they are both spreadsheets).
+5. Enter in the number of seconds you wish to take navigating to the relevant cell in your blank worksheet and watch the magic happen.
 
 I wrote this program to solve a problem in my department that was costing an ungodly amount of man hours. Due to this program, I've been able to cut the hours we spend on analysis by 78%.
