@@ -1,0 +1,16 @@
+The software we use for analysis of production numbers does not allow for the copy/paste mechanism. Before the numbers can be analyzed, they have to be imported onto a spreadsheet-like template which corresponds to different products, e.g, a cell which corresponds to Coke, another to Fanta, Sprite, etc.
+
+Since the sql-erp tables are not working, the stock figures were being hard coded individually for each different product. Since my company manufactures multiple brands in different stock sizes, this translates to thousands of cells which need to be entered individually.
+
+The stock sheets come in the form of excel documents. What my program simply does is import a specific sheet from the excel document, and then go on to simulate manual data entry into the 'analysis software' using a virtual keyboard.
+
+My company manufactures soft drinks and beer, all at different sites. My program prompts the user to copy the name of the excel sheet from which the data is to be imported, then goes on to request the user to select the site for which they wish to export the data to, It automatically picks up the correct stock numbers for each site based on the static design of the excel stocksheet template.
+
+The program is designed for the windows OS, since this is the standard OS used in my organisation. The program is written in python, but has been converted into an executable for easy launching. It is a Command Line Interface program. In this repo, you will find an example of the excel stocksheet. For a demonstration:
+
+1. Launch the python executable (Barnton_Exporter_X.exe). This can be found in the dist folder inside of the Barnton Exporter folder.
+2. Follow the instructions presented to you by the program.
+3. When you reach the stage where it requests for the number of seconds you need to navigate your cursor to a cell, open a blank excel worksheet (Since you do not have the software I use at my job, the worksheet will work for demonstrative purposes since they are both spreadsheets).
+4. Enter in the number of seconds you wish to take navigating to the relevant cell in your blank worksheet and watch the magic happen.
+
+I wrote this program to solve a problem in my department that was costing an ungodly amount of man hours. Due to this program, I've been able to cut the hours we spend on analysis by 78%.
